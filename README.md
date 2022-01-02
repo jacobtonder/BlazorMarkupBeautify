@@ -9,13 +9,13 @@ BlazorMarkupBeautify is a .NET library intended to enable developers use control
 
 The purpose of this library is to enable developers use markup instead of C# when using control structures. This should help increase readability of the code, instead of having to switch between html and C#.
 
-Currently this library only support conditional and iteration.
+Currently, this library supports conditional and iteration.
 
 ## Installation
 
 Install this package through NuGet Packages in Visual Studio or through command line. Alternatively, you can download the latest release [here](https://github.com/jacobtonder/BlazorMarkupBeautify/releases).
 
-Tip: Since you most likely will be using this on all your pages, you can include this line in "_Imports.razor"
+Tip: Since you most likely will be using this on all your Razor pages, you can include this line in "_Imports.razor"
 ```csharp
 @using BlazorMarkupBeautify
 ```
