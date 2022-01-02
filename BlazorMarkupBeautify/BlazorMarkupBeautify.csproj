@@ -4,6 +4,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Description>BlazorMarkupBeautify is .NET library intended to enable developers use control structures through markup instead of conspicuous C# code in their Blazor applications.</Description>
+	<PackageProjectUrl>https://jacobtonder.dk/</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/jacobtonder/BlazorMarkupBeautify</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+	<PackageTags>C#; Blazor; .NET</PackageTags>
+	<Authors>Jacob Tønder</Authors>
+	<Company />
+	<Copyright>Copyright (c) Jacob Tønder 2022</Copyright>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 
