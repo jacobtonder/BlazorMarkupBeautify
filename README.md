@@ -11,6 +11,15 @@ The purpose of this library is to enable developers use markup instead of C# whe
 
 Currently this library only support conditional and iteration.
 
+## Installation
+
+Install this package through NuGet Packages in Visual Studio or through command line.
+
+Tip: Since you most likely will be using this on all your pages, you can include this line in "_Imports.razor"
+```csharp
+@using BlazorMarkupBeautify
+```
+
 ## Conditionals
 
 Conditional statements are used to execute one or more statements if a condition is met.
