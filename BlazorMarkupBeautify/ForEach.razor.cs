@@ -9,6 +9,6 @@ namespace BlazorMarkupBeautify
         public IEnumerable<T>? Collection { get; set; }
 
         [Parameter]
-        public RenderFragment<T>? ElementContent { get; set; }
+        public RenderFragment<T>? ChildContent { get; set; }
     }
 }

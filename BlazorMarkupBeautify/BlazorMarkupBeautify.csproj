@@ -14,6 +14,7 @@
 	<Company />
 	<Copyright>Copyright (c) Jacob Tønder 2022</Copyright>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<Version>1.0.1</Version>
   </PropertyGroup>
 
 
