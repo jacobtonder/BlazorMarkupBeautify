@@ -32,12 +32,12 @@ This mixes both C# and HTML, which may be confusing to the reader.
 Instead, using this library, the code can be rewritten with almost purely HTML as seen in the example below:
 ```html
 <Conditional Condition=@condition>
-    <True>
-        <p>Condition evaluated to true.</p>
-    </True>
-    <False>
-        <p>Condition evaluated to false.</p>
-    </False>
+  <True>
+    <p>Condition evaluated to true.</p>
+  </True>
+  <False>
+    <p>Condition evaluated to false.</p>
+  </False>
 </Conditional>
 ```
 
@@ -49,13 +49,33 @@ An example in current Blazor can be seen below:
 ```html
 @foreach(var number in @Enumerable.Range(0, 10))
 {
-    <p>@number</p>
+  <p>@number</p>
 }
 ```
 
 Instead, using this library, the code can be rewritten with almost purely HTML as seen in the example below:
 ```html
 <ForEach Collection=@Enumerable.Range(0, 10)>
-    <p>@context</p>
+  <p>@context</p>
+</ForEach>
+```
+
+## Fizz Buzz
+
+To show a more complex example, below is a naive implementation of Fizz Buzz using this library:
+
+```html
+<ForEach Collection=@Enumerable.Range(1, 100)>
+  <p>
+    <Conditional Condition=@(context % 3 == 0)>
+      <True>Fizz</True>
+    </Conditional>
+    <Conditional Condition=@(context % 5 == 0)>
+      <True>Buzz</True>
+    </Conditional>
+    <Conditional Condition=@(context % 3 != 0 && context % 5 != 0)>
+      <True>@context</True>
+    </Conditional>
+  </p>
 </ForEach>
 ```
