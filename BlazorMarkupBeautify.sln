@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMarkupBeautify", "BlazorMarkupBeautify\BlazorMarkupBeautify.csproj", "{90D802E0-CE11-4B23-A261-85B7C3320CAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90D802E0-CE11-4B23-A261-85B7C3320CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D802E0-CE11-4B23-A261-85B7C3320CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D802E0-CE11-4B23-A261-85B7C3320CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D802E0-CE11-4B23-A261-85B7C3320CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C7975AA-079F-49CC-BA22-6A3AE505F8FB}
+	EndGlobalSection
+EndGlobal
