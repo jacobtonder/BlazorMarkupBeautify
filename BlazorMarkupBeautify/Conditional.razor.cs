@@ -5,6 +5,7 @@ namespace BlazorMarkupBeautify
     public partial class Conditional : ComponentBase
     {
         [Parameter]
+        [EditorRequired]
         public bool Condition { get; set; }
 
         [Parameter]
