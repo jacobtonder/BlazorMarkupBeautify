@@ -1,6 +1,6 @@
 ﻿@typeparam T
 
-@foreach (T element in Collection)
+@foreach (T element in Collection ?? Enumerable.Empty<T>())
 {
     @ChildContent(element)
 }
