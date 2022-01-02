@@ -13,7 +13,7 @@ Currently this library only support conditional and iteration.
 
 ## Installation
 
-Install this package through NuGet Packages in Visual Studio or through command line.
+Install this package through NuGet Packages in Visual Studio or through command line. Alternatively, you can download the latest release [here](https://github.com/jacobtonder/BlazorMarkupBeautify/releases).
 
 Tip: Since you most likely will be using this on all your pages, you can include this line in "_Imports.razor"
 ```csharp
