@@ -1,6 +1,6 @@
 [![.NET](https://github.com/jacobtonder/BlazorMarkupBeautify/actions/workflows/dotnet.yml/badge.svg)](https://github.com/jacobtonder/BlazorMarkupBeautify/actions/workflows/dotnet.yml)
 [![Nuget](https://img.shields.io/nuget/v/BlazorMarkupBeautify)](https://www.nuget.org/packages/BlazorMarkupBeautify/)
-![last commit](https://img.shields.io/github/last-commit/jacobtonder/BlazorMarkupBeautify?cacheSeconds=86400)
+![last commit](https://img.shields.io/github/last-commit/jacobtonder/BlazorMarkupBeautify)
 
 # BlazorMarkupBeautify
 
