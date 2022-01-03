@@ -1,5 +1,6 @@
 [![.NET](https://github.com/jacobtonder/BlazorMarkupBeautify/actions/workflows/dotnet.yml/badge.svg)](https://github.com/jacobtonder/BlazorMarkupBeautify/actions/workflows/dotnet.yml)
 [![Nuget](https://img.shields.io/nuget/v/BlazorMarkupBeautify)](https://www.nuget.org/packages/BlazorMarkupBeautify/)
+![last commit](https://img.shields.io/github/last-commit/jacobtonder/BlazorMarkupBeautify?cacheSeconds=86400)
 
 # BlazorMarkupBeautify
 
@@ -16,6 +17,7 @@ Currently, this library supports conditional and iteration.
 Install this package through NuGet Packages in Visual Studio or through command line. Alternatively, you can download the latest release [here](https://github.com/jacobtonder/BlazorMarkupBeautify/releases).
 
 Tip: Since you most likely will be using this on all your Razor pages, you can include this line in "_Imports.razor"
+
 ```csharp
 @using BlazorMarkupBeautify
 ```
@@ -25,6 +27,7 @@ Tip: Since you most likely will be using this on all your Razor pages, you can i
 Conditional statements are used to execute one or more statements if a condition is met.
 
 An example in current Blazor can be seen below:
+
 ```html
 @if (condition)
 {
@@ -38,7 +41,8 @@ else
 
 This mixes both C# and HTML, which may be confusing to the reader.
 
-Instead, using this library, the code can be rewritten with almost purely HTML as seen in the example below:
+Instead, using this library, the code can be rewritten with almost pure HTML as seen in the example below:
+
 ```html
 <Conditional Condition=@condition>
   <True>
@@ -55,6 +59,7 @@ Instead, using this library, the code can be rewritten with almost purely HTML a
 Iteration serves the purpose of repeating a statement a certain number of times.
 
 An example in current Blazor can be seen below:
+
 ```html
 @foreach(var number in @Enumerable.Range(0, 10))
 {
@@ -62,12 +67,15 @@ An example in current Blazor can be seen below:
 }
 ```
 
-Instead, using this library, the code can be rewritten with almost purely HTML as seen in the example below:
+Once again, using this library, the code can be rewritten with almost pure HTML as seen in the example below:
+
 ```html
 <ForEach Collection=@Enumerable.Range(0, 10)>
   <p>@context</p>
 </ForEach>
 ```
+
+The collection parameter can be set to any enumerable.
 
 ## Fizz Buzz
 
